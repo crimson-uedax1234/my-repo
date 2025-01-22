@@ -1,6 +1,6 @@
 name: Manual				
 on:					# 手動実行イベント 
-  workfow_dispatch:
+  workflow_dispatch:
     inputs:
       greeting: 		  	# 入力パラメータ名
         type: string	                # データ型（文字列）
